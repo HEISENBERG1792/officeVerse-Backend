@@ -1,0 +1,61 @@
+# -----------------------
+# Gradle / Build files
+# -----------------------
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# -----------------------
+# IDE / Editor
+# -----------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+*.vscode/
+*.swp
+.DS_Store
+
+# -----------------------
+# OS files
+# -----------------------
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+logs/
+*.out
+*.err
+
+# -----------------------
+# Spring Boot / Java
+# -----------------------
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.h2.db
+hs_err_pid*
+*.tmp
+
+# -----------------------
+# H2 Database / Local Dev
+# -----------------------
+data/logs/
+*.mv.db
+*.trace.db
+
+# -----------------------
+# Environment files / secrets
+# -----------------------
+application.properties
+application.yml
+.env
+*.keystore
+*.jks
