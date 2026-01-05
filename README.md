@@ -3,8 +3,8 @@
 <div align="center">
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![Java](https://img.shields.io/badge/Java-17+-orange.svg)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5+-brightgreen.svg)
+![Java](https://img.shields.io/badge/Java-21+-orange.svg)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.1-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 **A multiplayer office-themed game backend built with Spring Boot**
@@ -90,9 +90,9 @@ com.officeverse
 
 Before you begin, ensure you have the following installed:
 
-- ☕ **Java 17+**
+- ☕ **Java 21+**
 - 🐘 **Gradle 8+**
-- 🍃 **Spring Boot 3.5+**
+- 🍃 **Spring Boot 4.0.1**
 - 💻 **IDE** (IntelliJ IDEA or VS Code recommended)
 
 ### Installation
@@ -357,7 +357,7 @@ If you encounter any issues or have questions:
 
 - 🐛 [Report a bug](https://github.com/<username>/officeverse-backend/issues)
 - 💡 [Request a feature](https://github.com/<username>/officeverse-backend/issues)
-- 📧 Contact: geraltofmalitola@gmail.com
+- 📧 Contact: your-email@example.com
 
 ---
 
