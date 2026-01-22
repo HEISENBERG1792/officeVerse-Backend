@@ -9,7 +9,8 @@ public class Player {
     private long id;
     private String name;
 
-    protected Player(){}
+    public Player() {
+    }
 
     @ManyToOne
     @JoinColumn(name = "room_id")
@@ -20,10 +21,27 @@ public class Player {
         this.room = room;
     }
 
-    public Long getId() { return id; }
-    public String getName() { return name; }
-    public Room getRoom() { return room; }
+    public Long getId() {
+        return id;
+    }
 
-    public void setName(String name) { this.name = name; }
-    public void setRoom(Room room) { this.room = room; }
+    public String getName() {
+        return name;
+    }
+
+    public Room getRoom() {
+        return room;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setRoom(Room room) {
+        this.room = room;
+    }
 }

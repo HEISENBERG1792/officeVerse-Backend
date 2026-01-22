@@ -16,10 +16,13 @@ public class PlayerService {
         this.playerRepository = playerRepository;
     }
 
-
     public Player createPlayer(String name, Room room) {
         Player player = new Player(name, room);
         return playerRepository.save(player); // persist in DB
+    }
+
+    public Player savePlayer(Player player) {
+        return playerRepository.save(player);
     }
 
     public Player getPlayer(Long id) {
@@ -31,4 +34,3 @@ public class PlayerService {
         playerRepository.deleteById(id);
     }
 }
-
